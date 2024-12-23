@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom countdown meter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        countdown meter
+    </header>
+
+    <main>
+        <div class="answer-box">
+            <div class="box">
+                <h3 class="box1">1</h3>
+                <p>days</p>
+            </div>
+            <div class="box">
+                <h3 class="box2">2</h3>
+                <p>hrs</p>
+            </div>
+            <div class="box">
+                <h3 class="box3">3</h3>
+                <p>min</p>
+            </div>
+            <div class="box">
+                <h3 class="box4">4</h3>
+                <p>sec</p>
+            </div>
+
+            <button id="btn2">
+                set date again
+            </button>
+        </div>
+
+        <div class="error">
+            <p class="msg"></p>
+            <button id="btn3">
+                set date
+            </button>
+        </div>
+
+        <img src="./plane.png" alt="">
+    </main>
+
+    <div class="cover">
+        <div class="date">
+            <input type="datetime-local" id="user-date" placeholder="enter a valid date">
+            <button id="btn1">
+                set date
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        copyright all right reserved
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
